@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.homepage     = 'http://aws.amazon.com/mobile/sdk'
   s.license      = 'Apache License, Version 2.0'
   s.author       = { 'Amazon Web Services' => 'amazonwebservices' }
-  s.platform     = :ios, '12.0'
+  s.platforms = { :ios => "15.0", :tvos => "15.0" }
 
-  s.source       = { :git => 'https://github.com/aws-amplify/aws-sdk-ios.git',
+  s.source       = { :git => 'git@github.com:Watchio-Chillio/aws-sdk-ios.git',
                      :tag => s.version}
 
   s.frameworks   = 'CoreGraphics', 'UIKit', 'Foundation', 'SystemConfiguration', 'Security'
